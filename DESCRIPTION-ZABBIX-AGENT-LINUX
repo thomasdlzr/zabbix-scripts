@@ -1,0 +1,70 @@
+🖥️ Script Bash - Installation et Configuration de l'agent Zabbix sur Linux
+📌 Auteur : Thomas Delzor
+📌 Version : 2025
+📌 Compatibilité : Debian 12 et distributions dérivées
+
+📌 Description
+Ce script Bash automatise l'installation et la configuration de l'agent Zabbix sur un système Linux. Il assure une installation rapide et sécurisée, permettant à la machine d'être supervisée par un serveur Zabbix en quelques minutes.
+
+🔹 Installation automatique de l'agent Zabbix depuis le dépôt officiel
+🔹 Configuration dynamique en demandant l'IP du serveur Zabbix et le nom de l'hôte
+🔹 Sécurisation et application des paramètres
+🔹 Démarrage et activation du service pour un fonctionnement en continu
+🔹 Interface interactive avec un menu pour simplifier l'utilisation
+
+⚙️ Pré-requis
+Un système Linux basé sur Debian 12
+Un accès root ou sudo
+Un serveur Zabbix opérationnel
+📝 Utilisation
+1️⃣ Téléchargez le script :
+
+bash
+Copier
+Modifier
+wget https://github.com/TON-UTILISATEUR/zabbix-scripts/raw/main/install-agent-linux.sh
+2️⃣ Rendez-le exécutable :
+
+bash
+Copier
+Modifier
+chmod +x install-agent-linux.sh
+3️⃣ Lancez l'installation :
+
+bash
+Copier
+Modifier
+sudo ./install-agent-linux.sh
+4️⃣ Suivez les instructions à l'écran :
+
+Saisissez l’IP de votre serveur Zabbix
+Entrez un nom d'hôte unique pour la machine supervisée
+✅ Une fois terminé, l’agent sera actif et commencera à envoyer des données au serveur Zabbix.
+
+🔄 Fonctionnalités du script
+🛠 Installation complète et automatique
+💾 Mise à jour du système avant installation
+🔧 Personnalisation des paramètres Zabbix via un menu interactif
+♻️ Démarrage et activation automatique du service
+
+🔍 Exemple d'affichage
+diff
+Copier
+Modifier
+===============================
+      Installation Zabbix Agent
+      Script par Thomas Delzor ©
+===============================
+1) Installer Zabbix Agent
+2) Quitter
+===============================
+Choisissez une option :
+📌 Pourquoi utiliser ce script ?
+✅ Gain de temps : Plus besoin d’installer et de configurer manuellement l’agent
+✅ Simplicité : Interface claire avec des instructions guidées
+✅ Fiabilité : Testé sur Debian 12, fonctionne immédiatement
+✅ Personnalisation : Permet d’adapter les paramètres selon le besoin
+
+💡 Besoin d’aide ou d’améliorations ? N’hésitez pas à proposer des suggestions ou à signaler des améliorations directement sur GitHub.
+
+🔥 Supervisez vos machines en toute simplicité avec ce script ! 🔥
